@@ -3,6 +3,9 @@ body {
     font-family: sans-serif;
 }
 
-.name{
-    color: rgb(238, 9, 9)
+.foo{
+    color: blue
+}
+.boo{
+    color: blueviolet
 }
