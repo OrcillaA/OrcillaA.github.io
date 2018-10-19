@@ -1,3 +1,34 @@
-.title {
-    text-align: center
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
 }
+.byline{
+    font-style: italic;
+    font-size: 80%;
+}
+
+footer{
+    background-color:darkgray;
+    text-align: center;
+
+}
+
+header{
+    text-align: center;
+    background-color:darkgray;
+    font-size: 150%;
+}
+
+h1{
+    text-align: left;
+}
+
+main{
+    background-color: darkgray;
+    text-align: center;
+}
+
+.title{
+    text-align: center;
+}
+
