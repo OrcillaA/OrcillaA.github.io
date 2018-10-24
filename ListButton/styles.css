@@ -1,9 +1,47 @@
+aside{
+    border: 1px black solid;
+    border-radius: 8px;
+    font-size: 120%;
+    font-style: italic;
+    background-color: beige;
+    float: right;
+    width: 33%;
+    padding: 5px;
+    margin-left: 8px;
+    margin-right: 8px;
+
+}
 button {
     background-color: skyblue;
     border: 4px green ridge;
     color: rgb(0, 17, 255);
-    text-align: center;    
+    text-align: left;    
     font-size: 16px;
+}
+
+button.test-button{
+    padding: 25px;
+    border-width: 10px;
+    border-color: red;
+    border-style: solid;
+    border: 15px yellowgreen solid;
+    border-radius: 35px;
+}
+
+button.test-button:hover{
+    background-color: blueviolet;
+    border-color: white;
+}
+
+button.margin-button{
+    margin: 25px;
+
+}
+
+div#margin-div{
+    border: 1px black solid;
+    display: inline-block;
+
 }
 
 footer{
@@ -29,7 +67,7 @@ header p {
 img#list-button-utah{
     width: 100px;
     height: 100px;
-    float: right;
+    float: right
 }
 
 .byline{
@@ -41,3 +79,21 @@ main{
     background-color:burlywood
 }
 
+nav {        
+    background-color: aliceblue;
+    border: 1px green solid;
+    padding: 8px;
+    margin: -1px 0px 0px 0px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav li {
+    display: inline;
+    padding: 8px;    
+}
