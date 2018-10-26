@@ -14,9 +14,22 @@ aside{
 button {
     background-color: skyblue;
     border: 4px green ridge;
-    color: rgb(0, 17, 255);
+    color: black;
     text-align: left;    
     font-size: 16px;
+}
+
+button#set-text{
+    border: 1px black solid;
+    border-width: 5px;
+    border-radius: 25%;
+    margin: 10px;
+    background-color: green;
+    padding: 15px;
+}
+
+button#set-text:active{
+    color: red;
 }
 
 button.test-button{
@@ -38,10 +51,36 @@ button.margin-button{
 
 }
 
+div.elf-div-border:hover{
+    background-color: blueviolet;
+    border-color: blue;
+}
+
 div#margin-div{
     border: 1px black solid;
     display: inline-block;
 
+}
+
+div.elf-div-border{
+    display: inline-block;
+    border: 1px black solid;
+    padding: 25px;
+    border-radius: 25px;
+    background-color: green;
+    border-width: 10px;
+    margin: 30px;
+}
+
+div.list-div{
+    display: inline-block;
+    border: 1px black solid;
+    border-radius: 25px;
+    background-color: green;
+    border-width: 10px;
+    margin: 10px;
+    padding: 10px;
+    width: 30%;    
 }
 
 footer{
@@ -68,6 +107,14 @@ img#list-button-utah{
     width: 100px;
     height: 100px;
     float: right
+}
+
+input#list-data{
+    border: 1px black solid;
+    padding: 5px;
+    border-width: 10px;
+    border-radius: 10%;
+
 }
 
 .byline{
