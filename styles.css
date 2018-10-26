@@ -6,3 +6,22 @@ body {
 section h1{
     color: blue
 }
+
+nav {        
+    background-color: aliceblue;
+    border: 1px blue;
+    padding: 8px;
+    margin: -1px 0px 0px 0px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav li {
+    display: inline;
+    padding: 8px;    
+}
