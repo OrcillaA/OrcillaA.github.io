@@ -2,6 +2,39 @@ body {
     font-size: 133%;
     font-family: sans-serif;
 }
+a.links {
+    background-color: grey;
+    margin: px;
+}
+
+a.links:hover{
+	background-color: blue;
+}
+
+footer{
+    text-align: center;
+    background-color: lightgrey;
+    border: 3px solid black;
+    margin: 10px;
+}
+
+header{
+    background-color: lightgray;
+    border: 3px solid black;
+    margin: 10px;
+    text-align: center;
+
+}
+
+main{
+    background-color: lightslategray;
+    border: 3px solid black;
+    margin: 10px;
+}
+
+main li{
+	list-style: none;
+}
 
 section h1{
     color: blue
