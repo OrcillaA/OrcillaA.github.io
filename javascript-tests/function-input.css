@@ -1,0 +1,19 @@
+button {
+    float: left;
+    width: 150px;
+}
+
+button:hover {
+    color:darkblue;
+    background-color:darkturquoise;
+}
+
+input {
+    float: left;
+    width: 45px;
+}
+
+div {
+    clear: both;
+}
+
