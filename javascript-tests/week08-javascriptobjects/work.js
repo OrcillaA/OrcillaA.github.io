@@ -44,4 +44,3 @@ console.log('operand02 =', calculator.operand02);
 console.log('Add =', calculator.addMe());
 console.log('Subtract =', calculator.subtractMe());
 console.log('Multiply =', calculator.multiply());
-
