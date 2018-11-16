@@ -56,3 +56,25 @@ console.log(myObject['firstName']);
 console.log(myObject.getName());
 console.log(myObject.middleName);
 console.log(myObject.getFullName());
+
+// Object Choices Assignment (I dont understand at all)
+var simpleObject = {
+    sayName: 'Simple Object'
+};
+
+simpleObject.dynamicMethod = 'Dynamic method';
+
+function FunctionObject(sayName) {
+    this. 
+
+    FunctionObject.prototype.getName = () => {
+        return sayName;
+    };
+
+
+}
+
+console.log(simpleObject.sayName);
+console.log(simpleObject.dynamicMethod);
+
+
