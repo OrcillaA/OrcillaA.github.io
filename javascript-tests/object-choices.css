@@ -1,0 +1,13 @@
+p {
+    font-size: 20pt;
+    font-family: cursive;
+}
+
+button {
+    width: 150px;
+}
+
+button:hover {
+    color:green;
+    background-color:rgb(7, 87, 7);
+}

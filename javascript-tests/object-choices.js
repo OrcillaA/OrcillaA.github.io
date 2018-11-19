@@ -1,4 +1,4 @@
-function loader() {
+/*function loader() {
     const getNamesButton = document.getElementById('getNames');
     const functionButton = document.getElementById('getFunctionObject');
     getNamesButton.onclick = function() {
@@ -55,26 +55,76 @@ console.log(myObject.firstName);
 console.log(myObject['firstName']);
 console.log(myObject.getName());
 console.log(myObject.middleName);
-console.log(myObject.getFullName());
+console.log(myObject.getFullName());*/
 
-// Object Choices Assignment (I dont understand at all)
-var simpleObject = {
+// Object Choices Assignment
+window.onload = () => {
+    const simpleObjectAction = document.getElementById('simple-object-action');
+    const functionObjectAction = document.getElementById('function-object-action');
+    const customClassAction = document.getElementById('custom-class-action');
+
+    simpleObjectAction.onclick = () => {
+        const simpleDisplay = simpleObject.sayName;
+        console.log(simpleDisplay);
+        const simpleObjectDisplay = document.getElementById('simple-object-display');
+        simpleObjectDisplay.textContent = simpleDisplay;
+    }
+
+    //i dont understand how to make this work
+    functionObjectAction.onclick = () => {
+        const name = new FunctionObject();
+        name.sayName();
+        const functionObjectDisplay = document.getElementById('function-object-display');
+        functionObjectDisplay.textContent = name;
+    }
+
+    customClassAction.onclick = () => {
+        const name = myClass.sayName();
+        console.log(name);
+        const customClassDisplay = document.getElementById('custom-class-display');
+        customClassDisplay.textContent = name;
+    }
+}
+let simpleObject = {
     sayName: 'Simple Object'
 };
 
-simpleObject.dynamicMethod = 'Dynamic method';
+simpleObject.dynamicMethod = () => {
+    console.log('Dynamic Method');
+};
 
-function FunctionObject(sayName) {
-    this. 
+//Im having trouble for what you are asking us to do for this part
+function FunctionObject() {
 
-    FunctionObject.prototype.getName = () => {
-        return sayName;
+
+    function privateFunction() {
+        console.log('Private Function');
     };
 
 
-}
+    FunctionObject.prototype.sayName = () => {
+        'use strict'
+        privateFunction();
+    };
+
+};
+
+
+
+class CustomClass {
+    sayName() {
+        return 'Custom class'
+    }
+};
+
+
+
 
 console.log(simpleObject.sayName);
-console.log(simpleObject.dynamicMethod);
-
+simpleObject.dynamicMethod();
+let myObject = new FunctionObject();
+myObject.sayName();
+let myClass = new CustomClass();
+console.log(myClass.sayName());
+//console.log(myObject.constructor.toString());
 

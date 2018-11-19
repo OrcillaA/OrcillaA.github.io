@@ -6,17 +6,29 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Object Choices</title>
     <script src="object-choices.js"></script>
+    <link rel="stylesheet" href="object-choices.css">
 </head>
 <body>
     <h1>Object Choices</h1>
 
-    <p>Get Name: <span id='getNameDisplay'></span></p>
+    <p>The simple function button calls the simpleobject object literal with a method of sayName that prints out 'simple object'
+        <br>
+        The function button calls the private function however only shows in consle
+        <br>
+        The custom class button class the Customclass with the class constructor printing out custom class.
+    </p>
 
-    <p>Get Full Name: <span id='getFullNameDisplay'></span></p>
+    <p>Simple Object: <span id='simple-object-display'></span></p>
 
-    <button type="button" id="getNames" >Get Names</button>
+    <p>Function Object: <span id='function-object-display'></span></p>
 
-    <button type="button" id="getFunctionObject" >Call Function Object</button>
+    <p>Custom Class: <span id='custom-class-display'></span></p>
+
+    <button type="button" id="simple-object-action" >Call Simple Object</button>
+
+    <button type="button" id="function-object-action" >Call Function Object</button>
+
+    <button type="button" id="custom-class-action" >Call Custom Class</button>
 
 
     
