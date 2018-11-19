@@ -1,7 +1,7 @@
 window.onload = () => {
     const objectLiteralAction = document.getElementById('object-literal-action');
     const numbersAction = document.getElementById('numbers-action');
-    
+
     numbersAction.onclick = () => {
         const numbersDisplay = document.getElementById('numbers-display');
         numbersDisplay.textContent = numbers;
@@ -17,7 +17,14 @@ window.onload = () => {
         objectLiteralDisplay.textContent = objectLiteral.getName();
     }
 }
+//array of strings
+const strings = ['HTML', 'Javascript', 'three'];
 
+// for (let word of strings) {
+
+// }
+
+//array of numbers
 const numbers = [2, 1, 3];
 
 const objectLiteral = {
