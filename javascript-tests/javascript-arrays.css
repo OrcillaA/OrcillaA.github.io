@@ -1,0 +1,40 @@
+p {
+    font-size: 20pt;
+    font-family: cursive;
+}
+
+
+header {
+    border: 3px solid black;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgb(172, 226, 226);
+}
+
+main{
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: rgb(172, 226, 226);
+}
+
+main h2{
+    text-align: center;
+}
+
+main button{
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+
+
+footer{
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: rgb(172, 226, 226);
+}
+
+footer ul{
+    list-style: none;
+    text-align: center;
+}

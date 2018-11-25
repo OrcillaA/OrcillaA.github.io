@@ -29,7 +29,7 @@ window.onload = () => {
             const li = document.createElement("li");
             li.appendChild(document.createTextNode(word.language));
             languagePopularityDisplay.appendChild(li);
-            console.log(word);
+            console.log(word)
         };
     };
 };
@@ -38,7 +38,7 @@ window.onload = () => {
         languageNames: ['javaScript', 'HTML', 'CSS', 'Java', 'C#', 'Python', 'C/C++'],
         languagePopularity: [
             {
-                language: 'javaScript',
+                language: 'JavaScript',
                 rank: 1
             },
             {
