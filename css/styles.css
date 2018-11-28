@@ -1,0 +1,61 @@
+body {
+    font-size: 133%;
+    font-family: sans-serif;
+    background-color: black;
+}
+a.links {
+    background-color: grey;
+    margin: px;
+}
+
+a.links:hover{
+	background-color: blue;
+}
+
+footer{
+    text-align: center;
+    background-color: lightgrey;
+    border: 3px solid black;
+    margin: 10px;
+}
+
+header{
+    background-color: blueviolet;
+    border: 3px solid black;
+    margin: 10px;
+    text-align: center;
+
+}
+
+main{
+    background-color: green;
+    border: 3px solid black;
+    margin: 10px;
+}
+
+main li{
+	list-style: none;
+}
+
+section h1{
+    color: blue
+}
+
+nav {        
+    background-color: cadetblue;
+    border: 5px black;
+    padding: 8px;
+    margin: -1px 0px 0px 0px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav li {
+    display: inline;
+    padding: 8px;    
+}

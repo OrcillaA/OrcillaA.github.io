@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Radio Choices</title>
+    <script src="radio-choices.js"></script>
+    <link rel="stylesheet" href="radio-choices.css">
+</head>
+<body>
+    <header>
+        <h1>Radio Choices</h1>
+    </header>
+    <main>
+        <section>
+            <fieldset> 
+                <legend>The User Selection</legend> 
+                <p><b>User choice</b>: <span id="user-choice">Unknown</span></p> 
+            </fieldset>
+        </section>
+        <section id="form-section">
+            <fieldset>
+                <legend>Our Form</legend>
+                <form id="sort-type" action="goThere">
+                        <input type="radio" id="blue" name="sorter" value="Blue" checked>
+                        <label for="blue">Blue</label>
+                    
+                        <input type="radio" id="green" name="sorter" value="Green">
+                        <label for="green">Green</label>
+                        <div>
+                        <input class="btn-padding" type="submit" value="Submit">
+                        </div>
+                    </form>
+            </fieldset>
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <li>
+                &copy;
+            </li>
+            <li>
+                <a href="/index.html">Home</a>
+            </li>
+        </ul>
+    </footer>
+    
+</body>
+</html>
