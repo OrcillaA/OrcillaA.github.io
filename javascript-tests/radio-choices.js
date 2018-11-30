@@ -7,7 +7,16 @@ myForm.addEventListener('submit', (event) => {
     if (value.toLowerCase() === 'blue') {
         setColor("blueBackground");
         showChoice(value);
-    } else {
+    } else if (value.toLowerCase() === 'yellow') {
+        setColor("yellowBackground");
+        showChoice(value);
+    } else if (value.toLowerCase() === 'red') {
+        setColor("redBackground");
+        showChoice(value);
+    } else if (value.toLowerCase() === 'purple') {
+        setColor("purpleBackground");
+        showChoice(value);
+    } else if (value.toLowerCase() === 'green') {
         setColor("greenBackground");
         showChoice(value);
     }
