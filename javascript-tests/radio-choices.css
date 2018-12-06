@@ -41,8 +41,8 @@ footer ul {
     list-style: none;
 }
 /* 'backround-image' sets a url as the image of the backround for a certain element
-    'backround-repeat' makes the image repeat in the Y axis */
+    'backround-repeat' makes the image repeat in the Y and X axis */
 body {
     background-image: url(../images/blur.jpg);
-    background-repeat: repeat-y;
+    background-repeat: repeat;
 }
