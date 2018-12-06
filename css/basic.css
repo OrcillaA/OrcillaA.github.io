@@ -2,6 +2,12 @@ body {
     font-size: 133%;
     font-family: sans-serif;
 }
+
+button {
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
 a.links {
     background-color: grey;
     margin: px;
@@ -15,21 +21,18 @@ footer{
     text-align: center;
     background-color: lightgrey;
     border: 3px solid black;
-    margin: 10px;
 }
 
 header{
     background-color: lightgray;
     border: 3px solid black;
-    margin: 10px;
+    margin-top: 10px;
     text-align: center;
-
 }
 
 main{
     background-color: lightslategray;
     border: 3px solid black;
-    margin: 10px;
 }
 
 main li{
@@ -42,7 +45,7 @@ section h1{
 
 nav {        
     background-color: cadetblue;
-    border: 5px black;
+    border: 1px black solid;
     padding: 8px;
     margin: -1px 0px 0px 0px;
 }
