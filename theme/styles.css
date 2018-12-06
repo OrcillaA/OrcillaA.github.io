@@ -15,7 +15,8 @@ body{
     background-color: black;
     font-family: Arial, Helvetica, sans-serif;
     margin: auto;
-    text-align: center;
+    text-align: left;
+    max-width: 800px;
 }
 .byline{
     font-style: italic;
@@ -26,29 +27,39 @@ body{
 footer{
     background-color:darkgray;
     text-align: center;
-    border: 1px solid slategrey;
-    border-radius: 5px
-
+    border: 2px solid slategrey;
+    border-radius: 5px;
+    margin-bottom: 40px;
 }
 
 header{
     text-align: center;
     background-color:darkgray;
     font-size: 150%;
-    border: 1px solid slategray;
+    border: 2px solid slategray;
     border-radius: 5px;
+    margin-top: 40px;
 }
 
 h1{
     text-align: left;
 }
 
+img#front{
+    width: 95%;
+    height: 95%;
+    clear: left;
+    margin-left: 5px;
+}
+
 figure img{
-    max-width: 100%;
+    width: 95%;
+    height: 95%;
+    clear: left;
     margin: auto;
 }
 
-figure#floats{
+div#floats{
     float: right;
     margin-right: 5px;
     text-align: center;
@@ -63,13 +74,14 @@ figure#floats{
 main{
     background-color: darkgray;
     border: 3px solid slategray;
-    border-radius: 20px;
+    border-radius: 5px;
     padding-left: 5px;
 }
 
 nav{
-    background-color: aliceblue;
-    border: 1px green solid;
+    background-color: beige;
+    border: 3px black solid;
+    border-radius: 5px;
     padding: 8px;
     margin: -1px 0px 0px 0px;
 }

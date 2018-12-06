@@ -17,3 +17,32 @@
 .purpleBackground {
     background-color: purple;
 }
+
+header {
+    border: 5px ridge black;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    background-color: azure;
+}
+
+header h1 {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    border: 5px ridge black;
+    margin-top: 500px;
+    border-radius: 10px;
+    background-color: azure;
+}
+
+footer ul {
+    list-style: none;
+}
+/* 'backround-image' sets a url as the image of the backround for a certain element
+    'backround-repeat' makes the image repeat in the Y axis */
+body {
+    background-image: url(../images/blur.jpg);
+    background-repeat: repeat-y;
+}
